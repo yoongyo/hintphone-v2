@@ -1,0 +1,20 @@
+version: '3    # 도커 compose 파일의 버전 정의
+services:   # 서비스 정의
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - .:/code
+      - ./config/nginx:/etc/nginx.conf.d
+    depends_on:
+      - web
+  web:     # 서비스명
+    build:    # 빋드 지정
+      context: .   # Dockerfile 이 있는 디렉토리의 경로
+      dockerFile: DockerFile    # 도커 파일명
+    command: gunicorn hintphone.wsgi:application --bind 0.0.0.0:8000
+    volumes:
+      - .:/code
+    expose:
+      - "8000"

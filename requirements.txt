@@ -1,0 +1,6 @@
+djangorestframework==3.12.4
+djangorestframework-jwt==1.11.0
+django
+django-ckeditor
+django-cors-headers
+django-rest-auth
