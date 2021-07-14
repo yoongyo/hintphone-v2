@@ -9,4 +9,4 @@ backend / frontend 를 분리해서
 새롭게 개발하였습니다.
 
 ### Backend : Django Rest Framework, Docker로 EC2에 배포 
-### Frontend: React로 S3버킷으로 배포한후에 도메인 연결 -> http://hintphone.com
+### Frontend: React로 S3버킷으로 배포 -> http://hintphone.com
