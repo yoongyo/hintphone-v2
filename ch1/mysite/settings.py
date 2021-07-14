@@ -1,12 +1,22 @@
 import os
-
+import json
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = '2=*n^z%w5%llw__()!l5y%-6i!v=76%29cai=$%ulj=wumj!k('
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+with open(os.path.join(BASE_DIR, 'secret.json'), 'r') as f:
+    secret = json.loads(f.read())
+
+
+def get_secret(setting, secret=secret):
+    try:
+        return secret[setting]
+    except:
+        msg = "Set key '{0}' in secret.json".format(setting)
+
+
+SECRET_KEY = get_secret('SECRET_KEY')
 
 INSTALLED_APPS = [
     'django.contrib.admin',

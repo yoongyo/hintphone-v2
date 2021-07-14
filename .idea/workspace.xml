@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b9353e2-6290-4562-a3ea-1cd6b338933f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio/portfolio_django" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -46,10 +45,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1125" y="483" key="FileChooserDialogImpl" timestamp="1626220305292">
-      <screen x="-1920" y="145" width="1920" height="1040" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1626244600583">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625528703027" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1626244600583" />
     <state x="-1125" y="483" key="FileChooserDialogImpl/-1920.145.1920.1040/2560.0.1920.1040/0.0.2560.1400@-1920.145.1920.1040" timestamp="1626220305292" />
     <state x="3355" y="338" key="FileChooserDialogImpl/-1920.145.1920.1040/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1626101783068" />
     <state x="743" y="393" key="SettingsEditor" timestamp="1625502785112">
