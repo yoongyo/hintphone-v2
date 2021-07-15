@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ce202d6-5cc4-4742-bdef-bafb8e6998ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mysite/settings/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Mingo/Data Collector" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -78,10 +77,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="510" y="608" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1625822612946" />
-    <state x="987" y="370" key="FileChooserDialogImpl" timestamp="1626244013851">
+    <state x="987" y="370" key="FileChooserDialogImpl" timestamp="1626304883769">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="987" y="370" key="FileChooserDialogImpl/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1626244013851" />
+    <state x="987" y="370" key="FileChooserDialogImpl/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1626304883769" />
     <state x="3300" y="275" key="FileChooserDialogImpl/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1625615475664" />
     <state x="987" y="370" key="FileChooserDialogImpl/-1920.145.1920.1040/2560.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1625788050776" />
     <state x="3300" y="275" key="FileChooserDialogImpl/-1920.145.1920.1040/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1626098671466" />

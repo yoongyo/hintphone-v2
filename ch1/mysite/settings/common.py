@@ -1,7 +1,8 @@
 import os
 import json
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(ROOT_DIR)
 
 DEBUG = True
 
