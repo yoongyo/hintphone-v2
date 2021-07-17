@@ -1,6 +1,6 @@
 from .common import *
 
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['http://52.78.101.96:8000/', 'http://admin.hintphone.com', '127.0.0.1']
 
 
