@@ -2,7 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b9353e2-6290-4562-a3ea-1cd6b338933f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch1/mysite/static/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch1/mysite/static/minusS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch1/mysite/static/minusSS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch1/mysite/static/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch1/mysite/static/plus2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch1/mysite/static/plus3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.d4b1e3e7.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.d4b1e3e7.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.27d983fb.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.27d983fb.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.27d983fb.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.6e2734c3.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.6e2734c3.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.3fd7f91f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.3fd7f91f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.97021337.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.97021337.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/accounts1.ca55581d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/not_hint.58db5541.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/question.1c9237ce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/reset1.63fb4e1a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ch1/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch1/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/mysite/settings/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch1/mysite/settings/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/mysite/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch1/mysite/settings/prod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch1/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/migrations/0002_theme_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/migrations/0003_hint_theme.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/migrations/0004_auto_20210706_1033.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/migrations/0005_auto_20210706_1526.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/migrations/0006_auto_20210708_1020.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/theme/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +78,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio/portfolio_django" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jyg35\Desktop\hintphone\ch1\mysite\static" />
+      <recent name="C:\Users\jyg35\Desktop\hintphone\ch1\mysite\templates\theme" />
+      <recent name="C:\Users\jyg35\Desktop\hintphone\ch1\mysite\templates" />
+      <recent name="C:\Users\jyg35\Desktop\hintphone\ch1\mysite\templates\accounts" />
+      <recent name="C:\Users\jyg35\Desktop\hintphone\ch1\mysite\templates\admin" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,10 +104,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1626244600583">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1626391133780">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1626244600583" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.145.1920.1040/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1626391133780" />
     <state x="-1125" y="483" key="FileChooserDialogImpl/-1920.145.1920.1040/2560.0.1920.1040/0.0.2560.1400@-1920.145.1920.1040" timestamp="1626220305292" />
     <state x="3355" y="338" key="FileChooserDialogImpl/-1920.145.1920.1040/2560.0.1920.1040/0.0.2560.1400@2560.0.1920.1040" timestamp="1626101783068" />
     <state x="743" y="393" key="SettingsEditor" timestamp="1625502785112">

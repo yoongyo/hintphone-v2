@@ -10,8 +10,9 @@ WORKDIR /ch1
 
 RUN pip install -r requirements.txt
 
+RUN python ch1/manage.py collectstatic
+
 RUN python ch1/manage.py makemigrations
 
-Run python ch1/manage.py migrate
 
 CMD ["python", "ch1/manage.py", "runserver", "0:8000"]

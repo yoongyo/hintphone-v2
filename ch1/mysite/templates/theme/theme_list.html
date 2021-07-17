@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
+            <div class="text-center mt-3" style="color:white">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <h2 class="mt-5">{{ escape_room }}</h2>
+                        <h1 class="mt-1 mb-5">테마 수정</h1>
+                    </div>
+                    <div class="col-3 text-center">
+                    </div>
+                </div>
+                <div class="row">
+                    {% for i in themes %}
+                    <div class="col-6 mt-5">
+                        <a style="text-decoration:none;color:white" href="{% url 'theme_edit' user_id i.name %}"><h1 class="my-5 mb-0">{{ i.name }}</h1><span></span></a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5" style="flex; mx-auto">
+        <button class="mt-5" style="border:none; background-color: #334257;border-radius: 0.375rem;width: 12rem; padding-top: 1.25rem; padding-bottom: 1.25rem;" >
+            <a style="text-decoration:none" href="{% url 'logout' %}">
+                <h4 style="color:white; margin:0">LOG OUT</h4>
+            </a>
+        </button>
+    </div>
+</div>
+
+{% endblock %}
