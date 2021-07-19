@@ -254,25 +254,25 @@ class HintForm(forms.ModelForm):
             'timer': forms.TextInput(
                 attrs={
                     'class': 'form-control',
-                    'style': 'border-color:black'
+                    'style': ''
                 }
             ),
             'name': forms.TextInput(
                 attrs={
                     'class': 'form-control',
-                    'style': 'border-color:black',
+                    'style': '',
                 }
             ),
             'enterKey': forms.TextInput(
                 attrs={
                     'class': 'form-control',
-                    'style': 'border-color:black',
+                    'style': '',
                 }
             ),
             'hintCount': forms.NumberInput(
                 attrs={
                     'class': 'form-control',
-                    'style': 'border-color:black',
+                    'style': '',
                 }
             ),
             'hint1': forms.FileInput(

@@ -1,7 +1,7 @@
 from .common import *
 
 DEBUG = False
-ALLOWED_HOSTS = ['http://52.78.101.96:8000/', 'http://admin.hintphone.com', '127.0.0.1']
+ALLOWED_HOSTS = ['admin.hintphone.com', '127.0.0.1']
 
 
 AWS_ACCESS_KEY_ID = get_secret('AWS_ACCESS_KEY_ID')
@@ -17,15 +17,23 @@ AWS_S3_OBJECT_PARAMETERS = {
 AWS_LOCATION_STATIC = 'static'
 AWS_LOCATION_MEDIA = 'media'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'mysite/static'),
-]
+#
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'mysite/static'),
+# ]
 
-# STATIC_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION_STATIC)
-# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_DEFAULT_ACL = 'public-read'
 
-STATIC_URL = '/static/'
+
+STATIC_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION_STATIC)
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 STATIC_ROOT = os.path.join(BASE_DIR, 'mysite', 'staticfiles')
+
+STATIC_DIRS = os.path.join(BASE_DIR, 'mysite', 'static')
+STATICFILES_DIRS = [
+    STATIC_DIRS
+    # os.path.join(BASE_DIR, 'static')
+]
 
 
 MEDIA_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION_MEDIA)

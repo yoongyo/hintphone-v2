@@ -6,36 +6,148 @@
 <div class="container-fluid" style="color:white">
     <h2 class="mt-5 text-center">{{ escape_room }}</h2>
     <h3 class="text-center mb-5">{{ theme }}</h3>
-    <!--<div class="text-center">-->
-        <!--<button data-target="#myModal" data-toggle="modal" style="position:fixed;top:20px;right:20px;background-color:#548CA8;border:none" type="button">-->
-            <!--<img style="z-index:0;" width="35px;" src="{% static  'question.png' %}">-->
-        <!--</button>-->
-        <!--<div class="modal" id="myModal">-->
-          <!--<div class="modal-dialog">-->
-            <!--<div class="modal-content">-->
+    <div class="text-center">
+        <button data-target="#myModal" data-toggle="modal" style="position:absolute;top:20px;left:20px;background-color:#548CA8;border:none" type="button">
+            <img style="z-index:0;" width="100px;" src="{% static  'cCode.png' %}">
+        </button>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
 
-              <!--&lt;!&ndash; Modal Header &ndash;&gt;-->
-              <!--<div class="modal-header">-->
-                <!--<h4 class="modal-title" style="color:#548CA8">테마 수정</h4>-->
-                <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
-              <!--</div>-->
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title" style="color:#548CA8">힌트 코드</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
 
-              <!--&lt;!&ndash; Modal body &ndash;&gt;-->
-              <!--<div class="modal-body" style="color:#548CA8;">-->
-                  <!--<h4>테마 수정시 유의할점</h4>-->
-                  <!--<span style="font-size:1.5rem">1. 힌트 순서에 맞게 힌트 파일을 1번부터 순서대로 넣어주시면 됩니다.</span><br><br>-->
-                  <!--<span style="font-size:1.5rem">2. Plus 버튼을 누르면 난이도 설정이 가능합니다.</span><br><br>-->
-                  <!--<span style="font-size:1.5rem">3. 난이도 설정을 중단하고 싶으실 경우 HINT 상의 파일을 삭제해주시면 됩니다.</span><br><br>-->
-              <!--</div>-->
+              <!-- Modal body -->
+              {% if manyHint %}
+              <div class="modal-body" style="color:#548CA8;">
+                  <h4>힌트 1 : DB38</h4>
+                  <h4>힌트 2 : DA60</h4>
+                  <h4>힌트 3 : CA59</h4>
+                  <h4>힌트 4 : BD67</h4>
+                  <h4>힌트 5 : AC35</h4>
+                  <h4>힌트 6 : BC71</h4>
+                  <h4>힌트 7 : AD58</h4>
+                  <h4>힌트 8 : CB88</h4>
+                  <h4>힌트 9 : CD37</h4>
+                  <h4>힌트 10 : CC38</h4>
+                  <h4>힌트 11 : DC54</h4>
+                  <h4>힌트 12 : DD88</h4>
+                  <h4>힌트 13 : DB34</h4>
+                  <h4>힌트 14 : AB65</h4>
+                  <h4>힌트 15 : CA29</h4>
+                  <h4>힌트 16 : BC63</h4>
+                  <h4>힌트 17 : AC25</h4>
+                  <h4>힌트 18 : BC31</h4>
+                  <h4>힌트 19 : AD98</h4>
+                  <h4>힌트 20 : CB48</h4>
+                  <h4>힌트 21 : CD27</h4>
+                  <h4>힌트 22 : CC98</h4>
+                  <h4>힌트 23 : DC01</h4>
+                  <h4>힌트 24 : DD08</h4>
+                  <h4>힌트 25 : BC51</h4>
+                  <h4>힌트 26 : CD47</h4>
+                  <h4>힌트 27 : CB02</h4>
+                  <h4>힌트 28 : DC14</h4>
+                  <h4>힌트 29 : CC58</h4>
+                  <h4>힌트 30 : DD48</h4>
+                  <h4>힌트 31 : BC77</h4>
+                  <h4>힌트 32 : CD44</h4>
+                  <h4>힌트 33 : DC55</h4>
+                  <h4>힌트 34 : DD90</h4>
+                  <h4>힌트 35 : BC53</h4>
+                  <h4>힌트 36 : CD93</h4>
+                  <h4>힌트 37 : CB21</h4>
+                  <h4>힌트 38 : DC22</h4>
+                  <h4>힌트 39 : CC11</h4>
+                  <h4>힌트 40 : DD65</h4>
+                  <h4>힌트 41 : EA10</h4>
+                  <h4>힌트 42 : EB31</h4>
+                  <h4>힌트 43 : EC52</h4>
+                  <h4>힌트 44 : EA73</h4>
+                  <h4>힌트 45 : EB94</h4>
+                  <h4>힌트 46 : FA20</h4>
+                  <h4>힌트 47 : FB41</h4>
+                  <h4>힌트 48 : FC62</h4>
+                  <h4>힌트 49 : FA83</h4>
+                  <h4>힌트 50 : FB04</h4>
+                  <h4>힌트 51 : EA11</h4>
+                  <h4>힌트 52 : EB32</h4>
+                  <h4>힌트 53 : EC53</h4>
+                  <h4>힌트 54 : EA74</h4>
+                  <h4>힌트 55 : EB85</h4>
+                  <h4>힌트 56 : FA31</h4>
+                  <h4>힌트 57 : FB52</h4>
+                  <h4>힌트 58 : FC73</h4>
+                  <h4>힌트 59 : FA94</h4>
+                  <h4>힌트 60 : FB15</h4>
+                  <h4>힌트 61 : EA20</h4>
+                  <h4>힌트 62 : EB41</h4>
+                  <h4>힌트 63 : EC62</h4>
+                  <h4>힌트 64 : EA83</h4>
+                  <h4>힌트 65 : EB04</h4>
+                  <h4>힌트 66 : FA10</h4>
+                  <h4>힌트 67 : FB31</h4>
+                  <h4>힌트 68 : FC52</h4>
+                  <h4>힌트 69 : FA73</h4>
+                  <h4>힌트 70 : FB94</h4>
+                  <h4>힌트 71 : GA20</h4>
+                  <h4>힌트 72 : GB41</h4>
+                  <h4>힌트 73 : GC62</h4>
+                  <h4>힌트 74 : GA83</h4>
+                  <h4>힌트 75 : GB04</h4>
+                  <h4>힌트 76 : GA10</h4>
+                  <h4>힌트 77 : GB31</h4>
+                  <h4>힌트 78 : GC52</h4>
+                  <h4>힌트 79 : GA73</h4>
+                  <h4>힌트 80 : GB94</h4>
 
-              <!--&lt;!&ndash; Modal footer &ndash;&gt;-->
-              <!--<div class="modal-footer">-->
-                <!--<button type="button" class="btn" data-dismiss="modal">Close</button>-->
-              <!--</div>-->
-            <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
+
+              </div>
+              {% else %}
+              <div class="modal-body" style="color:#548CA8;">
+                  <h4>힌트 1 : DB38</h4>
+                  <h4>힌트 2 : DA60</h4>
+                  <h4>힌트 3 : CA59</h4>
+                  <h4>힌트 4 : BD67</h4>
+                  <h4>힌트 5 : AC35</h4>
+                  <h4>힌트 6 : BC71</h4>
+                  <h4>힌트 7 : AD58</h4>
+                  <h4>힌트 8 : CB88</h4>
+                  <h4>힌트 9 : CD37</h4>
+                  <h4>힌트 10 : CC38</h4>
+                  <h4>힌트 11 : DC54</h4>
+                  <h4>힌트 12 : DD88</h4>
+                  <h4>힌트 13 : DB34</h4>
+                  <h4>힌트 14 : AB65</h4>
+                  <h4>힌트 15 : CA29</h4>
+                  <h4>힌트 16 : BC63</h4>
+                  <h4>힌트 17 : AC25</h4>
+                  <h4>힌트 18 : BC31</h4>
+                  <h4>힌트 19 : AD98</h4>
+                  <h4>힌트 20 : CB48</h4>
+                  <h4>힌트 21 : CD27</h4>
+                  <h4>힌트 22 : CC98</h4>
+                  <h4>힌트 23 : DC01</h4>
+                  <h4>힌트 24 : DD08</h4>
+                  <h4>힌트 25 : BC51</h4>
+                  <h4>힌트 26 : CD47</h4>
+                  <h4>힌트 27 : CB02</h4>
+                  <h4>힌트 28 : DC14</h4>
+                  <h4>힌트 29 : CC58</h4>
+                  <h4>힌트 30 : DD48</h4>
+              </div>
+              {% endif %}
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
     <form action="" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <div class="row my-2">

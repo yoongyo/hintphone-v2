@@ -32,7 +32,8 @@ INSTALLED_APPS = [
     # 'theme',
     'accounts',
     'rest_auth',
-    'hint'
+    'hint',
+    'storages'
 ]
 
 MIDDLEWARE = [
@@ -150,7 +151,6 @@ CKEDITOR_CONFIGS = {
             {'name': 'upload', 'items': ['Image', 'Youtube']},
             '/',
         ],
-        'extraPlugins': 'youtube',
         'toolbar': 'YourCustomToolbarConfig',
         'tabSpaces': 4,
     },

@@ -20,7 +20,7 @@ class Theme(models.Model):
     textHint1 = RichTextUploadingField(blank=True, null=True,
                                        external_plugin_resources=[(
                                          'youtube',
-                                         '/static/base/vendor/ckeditor_plugins/youtube/youtube/',
+                                         'https://hintphone.s3.amazonaws.com//static/base/vendor/ckeditor_plugins/youtube/youtube/',
                                          'plugin.js',
                                      )])
     sub_textHint1 = RichTextUploadingField(blank=True, null=True)
